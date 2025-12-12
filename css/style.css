@@ -1,0 +1,118 @@
+.callBtn {
+  background-color: RGB(235, 253, 245) !important;
+  color: RGB(0, 152, 102) !important;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.callBtn:hover {
+  background-color: RGB(209, 250, 228) !important;
+}
+
+.emailBtn {
+  background-color: RGB(245, 243, 255) !important;
+  color: RGB(128, 35, 255) !important;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.emailBtn:hover {
+  background-color: RGB(236, 233, 255) !important;
+}
+
+.starBtn {
+  border: none;
+  transition: 0.3s ease;
+}
+
+.starBtn:hover {
+  color: RGB(245, 158, 11) !important;
+}
+
+.heartBtn {
+  border: none;
+  transition: 0.3s ease;
+}
+
+.heartBtn:hover {
+  color: RGB(250, 22, 73) !important;
+}
+
+.heartBtnActive {
+  background-color: RGB(255, 241, 242) !important;
+  color: RGB(255, 33, 87) !important;
+}
+
+.heartBtnActive:hover {
+  background-color: RGB(245, 225, 228) !important;
+}
+
+.starBtnActive {
+  background-color: RGB(255, 251, 234) !important;
+  color: RGB(255, 186, 0) !important;
+}
+
+.starBtnActive:hover {
+  background-color: RGB(245, 240, 220) !important;
+}
+
+.editBtn {
+  border: none;
+  transition: 0.3s ease;
+}
+
+.editBtn:hover {
+  color: RGB(245, 158, 11) !important;
+  background-color: RGB(255, 249, 237) !important;
+}
+
+.trashBtn {
+  border: none;
+  transition: 0.3s ease;
+}
+
+.trashBtn:hover {
+  color: RGB(245, 13, 62) !important;
+  background-color: RGB(254, 242, 243) !important;
+}
+
+.contact-card {
+  transition: box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18) !important;
+}
+
+.favorite-card {
+  transition: background-color 0.25s ease;
+}
+
+.favorite-card:hover {
+  background-color: RGB(255, 249, 237) !important; 
+  cursor: pointer;
+}
+
+.favorite-card:hover .callBtn {
+  background-color: RGB(25, 135, 85) !important;
+  color: white !important;
+}
+
+.emergencyCallBtn {
+  background-color: RGB(255, 228, 229) !important;
+  color: RGB(237, 0, 64) !important;
+}
+
+.emergency-card {
+  transition: background-color 0.25s ease;
+}
+
+.emergency-card:hover {
+  background-color: RGB(254, 242, 243) !important; 
+  cursor: pointer;
+}
+
+.emergency-card:hover .emergencyCallBtn {
+  background-color: RGB(220, 52, 68) !important;
+  color: white !important;
+}
